@@ -1,0 +1,16 @@
+PODS:
+  - INSPageView (0.1.0)
+
+DEPENDENCIES:
+  - INSPageView (from `../`)
+
+EXTERNAL SOURCES:
+  INSPageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  INSPageView: 806842a7a2d19c749d217fe0a8f65eb6f1333dbe
+
+PODFILE CHECKSUM: 788f0e44dbeaead5e389b194470b99cd984d6fe1
+
+COCOAPODS: 1.11.2

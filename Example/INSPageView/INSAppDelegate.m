@@ -13,6 +13,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    UINavigationBarAppearance *navigationBarAppearance = [[UINavigationBarAppearance alloc] init];
+    [navigationBarAppearance configureWithDefaultBackground];
+    [[UINavigationBar appearance] setStandardAppearance:navigationBarAppearance];
+    [[UINavigationBar appearance] setScrollEdgeAppearance:navigationBarAppearance];
+    [[UINavigationBar appearance] setCompactAppearance:navigationBarAppearance];
+    if (@available(iOS 15.0, *)) {
+        [[UINavigationBar appearance] setCompactScrollEdgeAppearance:navigationBarAppearance];
+    }
+    
     return YES;
 }
 

@@ -1,0 +1,6 @@
+framework module Pods_INSPageView_Tests {
+  umbrella header "Pods-INSPageView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
