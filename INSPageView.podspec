@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'INSPageView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of INSPageView.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/inspirelife@hotmail.com/INSPageView'
+  s.homepage         = 'https://github.com/Inspirelife96/INSPageView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'inspirelife@hotmail.com' => 'inspirelife@hotmail.com' }
-  s.source           = { :git => 'https://github.com/inspirelife@hotmail.com/INSPageView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Inspirelife96/INSPageView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'

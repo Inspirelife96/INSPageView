@@ -250,7 +250,9 @@
     
     _minHeaderViewContainerHeight = [self _statusBarHeight] + self.navigationBarHeight + self.tabViewHeight;
     
-    _minHeaderContainerViewFrameYPos = _minHeaderViewContainerHeight - _headerContainerViewHeight;
+    // Y Postion如果是-_headerContainerViewHeight，则代表整个headerContainerView被移出屏幕顶部
+    // 但我们需要保证 statusbar，navigationbar以及tabView置顶显示，因此至少需要minHeaderViewContainerHeight的高度
+    _minHeaderContainerViewFrameYPos =  -_headerContainerViewHeight + _minHeaderViewContainerHeight;
     
     _contentOffsetY = 0;
 }
